@@ -1,0 +1,242 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.sobreContent{
+	background-image: url(../img/bgSobre.png);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: 5% 0;
+	width: 100%;
+	height: auto;
+
+}
+.sobreContent h1{
+	font-family: 'League Spartan', sans-serif;
+	color: #fff;
+	font-size: max(70px, 6vw);
+	font-weight: 700;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20vw;
+	padding-bottom: 20vw;
+}
+
+
+.cardTexto{
+	margin: auto;
+	width: 70vw;
+	margin-top: 5vw;
+	border: none;
+	border-radius: 1vw;
+	background: #ffffff;
+}
+
+.tituloCard{
+	font-size: max(30px, 2.7vw);
+	font-weight: 800;
+	padding: 1vw;
+	background: #06bd8f59;
+	border-radius: 1vw;
+	color: rgb(38, 63, 73);
+}
+
+.textoCard{
+	font-size: max(18px, 1.5vw);
+	padding: 1vw;
+	color: rgb(38, 49, 73);
+}
+.hrSobre{
+	margin-top: 12%;
+}
+
+.contentEquipe{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-direction: initial;
+	width: 100%;
+	height: auto;
+	background: #187F8D;
+	flex-wrap: wrap;
+}
+
+.equipe h3{
+	text-align: center;
+	margin: auto;
+	padding: 1vw;
+	margin-bottom: 9%;
+	font-size: max(35px, 3vw);
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+	margin-bottom: 4vw;
+	color: #145861;
+}
+
+.contentEquipe img{
+	display: flex;
+	width: 25vw;
+	min-width: 20rem;
+	border-radius: 2vw;
+	box-shadow: 2px 2px 8px;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	flex-direction: row;
+}
+
+.contentEquipe p{
+	display: flex;
+	justify-content: right;
+	padding: 2rem;
+	font-size: max(20px, 2vw);
+	color: #fff;
+	width: 70%;
+	min-width: 25rem;
+	margin: auto;
+	flex-direction: row;
+}
+
+
+.imgMaos img{
+	display: flex;
+	align-items: center;
+	margin: auto;
+	justify-content: center;
+
+	width: 100%;
+	min-width: 30rem;
+}
+
+.imgMaos{
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	padding: 20vw;
+}
+
+.geral{
+	margin-top: 5%;
+}
+
+.geral img{
+	width: 15rem;
+	height: 22rem;
+	border-radius: 1rem;
+	margin-top: 5vw;
+	box-shadow: #72979c 2px 2px 4px;
+}
+
+.geral h4{
+	margin-top: 4%;
+	font-size: max(18px, 1.5vw);
+	font-weight: 700;
+	color: #000;
+}
+
+.geral h6{
+	font-size: max(16px, 1.4vw);
+	color: #4a6669;
+}
+
+.contentAcreditamos{
+	width: 100%;
+	height: auto;
+	background: #187F8D;
+}
+
+.contentAcreditamos p{
+	font-size: max(19px, 1.8vw);
+	width: 80%;
+	text-align: center;
+	color: #fff;
+	padding: 5vw;
+	padding-top: 8vw;
+	margin: auto;
+}
+
+.acreditamos h3{
+	text-align: center;
+	margin: auto;
+	padding: 1vw;
+	margin-bottom: 9%;
+	font-size: max(35px, 3vw);
+	font-family: 'League Spartan', sans-serif;
+	font-weight: 600;
+	margin-bottom: 4vw;
+	color: #145861;
+
+}
+.equipeMaos{
+	background-image: url(../img/bg3.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 25vw;
+	box-shadow: inset #414e5083 0px -3px 8px;
+}
+
+.imgAcreditar{
+	width: 40%;
+	min-width: 15rem;
+	transform: translateY(6vw);
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ultimoHr{
+	margin-top: 8vw;
+	margin-bottom: 8vw;
+}
+
+.conhecaEquipe{
+	text-align: center;
+	margin: auto;
+	padding: 2vw;
+	font-size: max(30px, 2.4vw);
+}
+
+.consultory{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.imgConsultory img{
+	width: 100%;
+	min-height: 15rem;
+}
+
+.imgConsultory{
+	margin: auto;
+	width: 55vw;
+	min-width: 20rem;
+}
+
+.textConsultory{
+	margin: auto;
+	display: flex;
+	font-size: max(20px, 2vw);
+	width: 40%;
+		min-height: 15rem;
+	min-width: 18rem;
+	padding: 1rem;
+}
+
+.consultory h3{
+	font-size: max(25px, 3vw);
+}

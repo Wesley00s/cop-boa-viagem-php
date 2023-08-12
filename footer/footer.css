@@ -1,0 +1,143 @@
+a{
+    text-decoration: none;
+}
+hr {
+    border: 2px solid #1A81BB;
+    width: 5%;
+    margin: auto;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+footer {
+    background-image: url(../img/bgFooter.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    color: #fff;
+    flex-wrap: nowrap;
+}
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    width: 50%;
+    flex-wrap: wrap;
+    margin: 1rem;
+    transform: translateX(100px);
+}
+
+.contentFooter {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 3rem;
+}
+
+
+
+.btns{
+    width: 45%;
+    max-width: 15rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.top{
+    margin: 1rem;
+}
+
+.tFooter {
+    color: #fff;
+    background: #6d89b365;
+    width: fit-content;
+    padding: 0.4vw 2.5vw;
+    border-radius: 1vw;
+    font-size: max(15px, 1.5vw);
+    margin: auto;
+    margin-bottom: 1rem;
+    transform: translateX(-110%);
+}
+
+
+.enderecoFooter {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    width:100%;
+}
+
+.contatoFooter {
+    width: 100%;
+    margin: auto;
+}
+
+footer p {
+    font-size: max(15px, 1vw);
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+
+footer ul li {
+    list-style: none;
+}
+
+.footer img {
+    width: 20%;
+    min-width: 8rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    transform: translateX(60px);
+}
+
+footer h6 {
+    color: #fff;
+    padding: 0.4vw 2vw;
+    width: 100%;
+    background: #0c704f;
+    border-radius: 2vw;
+    font-size: max(12px, 1vw);
+    padding: 0.8rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer h6:hover{
+    color: #133f58;
+    background: #07cc80;
+    transition: 0.3s;
+}
+
+.copy {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: #00203D;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    padding: 2vw;
+}

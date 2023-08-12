@@ -1,0 +1,165 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	background-color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.cards{
+	width: 70%;
+	height: auto;
+	margin: auto;
+	/*background: #b4c4ce38;*/
+	font-size: max(12px);
+	position: relative;
+	top: 3vw;
+	border-radius: 1vw;
+}
+.btn{
+	width: 100%;
+	max-width: 15vw;
+	min-width: 3vw;
+	font-size: max(10px, 0.81vw);
+	border-radius: 1vw;
+	font-weight: 600;
+	background: #0c86be;
+	min-height: 0.5vw;
+	max-height: 3vw;
+	margin-top: 1vw;
+}
+.card-title{
+	font-size: max(12px, 1.1vw);
+	font-weight: 700;
+	padding: 2vw;
+	color: #061b42;
+	background: #13bfd617;
+	width: 100%;
+	margin: auto;
+	margin-bottom: 1vw;
+	border-radius: 1vw;
+}
+.card{
+	border-radius: 1rem;
+	border: none;
+	margin: auto;
+	margin-bottom: 1vw;
+	width: 15vw;
+	max-width: 280px;
+	min-width: 120px;
+	height: 16vw;
+	max-height: 220px;
+	min-height: 110px;
+	box-shadow: #b0d4d4 2px 2px 5px;
+	background-color: #f1fcfb;
+}
+.cardTop{
+	margin-top: 1rem;
+}
+.blocoContent{
+	width: 100%;
+	position: relative;
+}
+.tituloServices{
+	font-family: 'League Spartan', sans-serif;
+	color: #fff;
+	font-size: max(70px, 6vw);
+	font-weight: 700;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20vw;
+	padding-bottom: 20vw;
+}
+
+header{
+	background-image: url(../img/bgLinearServicos.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: 100%;
+}
+
+.bgMsgServicos {
+	border-radius: 9vw;
+	margin: auto;
+	width: 70%;
+	background: #289292;
+	background: rgb(27, 133, 133);
+	background: -moz-linear-gradient(90deg, rgba(27, 133, 133, 1) 0%, rgba(233, 240, 241, 1) 100%, rgba(214, 226, 226, 1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(27, 133, 133, 1) 0%, rgba(233, 240, 241, 1) 100%, rgba(214, 226, 226, 1) 100%);
+	background: linear-gradient(90deg, rgba(27, 133, 133, 1) 0%, rgba(233, 240, 241, 1) 100%, rgba(214, 226, 226, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b8585", endColorstr="#d6e2e2", GradientType=1);
+	margin-bottom: 8%;
+}
+.msgServicos {
+	padding: 1.5rem;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 3%;
+	width: fit-content;
+	font-size: max(20px, 1.5vw);
+	font-weight: 600;
+	color: #fff;
+	text-shadow: #4a6b9c 2px 2px 5px;
+}
+
+.secaoContent {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	width: 100%;
+	height: auto;
+}
+
+.agradecimentoServicos p{
+	margin: auto;
+	font-size: max(19px, 2vw);
+	width: 80%;
+	padding: 1vw;
+	text-align: center;
+	background: #55a7c7;
+	color: #fff;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+.BemVindo{
+	text-align: center;
+	font-size: max(19px, 2vw);
+	padding: 5%;
+}
+
+.meuBotao{
+	font-size: max(11px, 1.1vw);
+	color: #fff;
+	font-weight: 600;
+	background: #289289;
+	border: none;
+	border-radius: 10rem;
+	width: 100%;
+	height: 24%;
+
+}
+
+.meuBotao:hover{
+	background: #4ceee6;
+	color: #061e27;
+	border: solid #15d1c1 1px;
+	transition: 0.3s;
+}
+
+.ultimo{
+	margin-top: 10vw;
+}
+iframe{
+	color: #0c86be;
+    width: 100%;
+    height: 130rem;
+	/*background: #83daa0;*/
+}
